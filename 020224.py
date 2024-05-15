@@ -1,5 +1,6 @@
 class Solution:
     def sequentialDigits(self, low: int, high: int):
+        """cool"""
         t = []
         
         for i in range(1,10):
@@ -15,3 +16,6 @@ class Solution:
 
 aa = Solution()
 print(aa.sequentialDigits(100, 300))
+
+
+
