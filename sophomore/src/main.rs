@@ -5,7 +5,7 @@ mod problems;
 fn main() {
     // let args: Vec<String> = env::args().collect();
 
-    let result = problems::latest::Solution::gcd_of_strings("abab".to_string(), "ab".to_string());
+    let result = problems::latest::Solution::reverse_vowels("abab".to_string());
 
     println!("{}", result);
 }
